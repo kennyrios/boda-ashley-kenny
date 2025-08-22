@@ -2564,12 +2564,19 @@ hr {
   display: block;
   margin-bottom: 10px;
 }
-.pricing-card-area .single-card .card-top h4 {
+.pricing-card-area .single-card .card-top h4, .card-bottom h4{
   color: #2e3c40;
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 26px;
+  line-height: 32px;
 }
+
+.card-bottom ul{
+  margin-bottom: 20px;
+}
+
+
 .pricing-card-area .single-card .card-bottom ul li {
   color: #636363;
   font-weight: 300;
@@ -2616,11 +2623,9 @@ hr {
   background-position: center;
   width: 100%;               /* take full width of parent */
   max-width: 749px;          /* prevent it from stretching too far */
-  
   aspect-ratio: 749 / 1144;  /* keeps the original image proportion */
-  
   margin: 5px;
-  padding: 20px;
+  padding: 20px 30px;
 }
 
 
@@ -5494,7 +5499,12 @@ del {
   margin-bottom: 10px;
 }
 .card-top img {
-  width: 80px;
+  width: 65px;
+}
+
+.img-icon{
+    width: 100px;
+    margin-bottom: 10px;
 }
 
 .section-padding30 {
