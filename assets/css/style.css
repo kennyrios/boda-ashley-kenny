@@ -1853,9 +1853,14 @@ hr {
   }
 }
 .gift-padding {
-  padding-top: 160px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
+
+.gift-padding2 {
+  padding-top: 160px;
+  padding-bottom: 20px;
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .gift-padding {
     padding-top: 120px;
