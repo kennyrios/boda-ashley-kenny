@@ -120,6 +120,12 @@ li, p, input, textarea, .btn{
   line-height: 30px;
 }
 
+body > main > section.pricing-card-area.section-padding30.section-bg > div > div.cards-container > div:nth-child(2) > div > div.card-bottom > ul li{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .section-padding30 {
     padding-top: 80px!important;
 }
@@ -226,6 +232,9 @@ p {
   line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
+}
+h5,h4{
+  margin: 0;
 }
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
@@ -2566,11 +2575,15 @@ hr {
 }
 .pricing-card-area .single-card .card-top h4, .card-bottom h4{
   color: #2e3c40;
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 700;
-  margin-bottom: 26px;
-  line-height: 32px;
+  margin-bottom: 22px;
+  line-height: 27px;
 }
+.flaticon-award{
+  color: #e3b05f;
+}
+
 
 .card-bottom ul{
   margin-bottom: 20px;
@@ -4890,6 +4903,7 @@ del {
 .ordered-list {
   margin-left: 30px;
 }
+
 .ordered-list li {
   list-style-type: decimal-leading-zero;
   color: #1f2b7b;
@@ -5500,6 +5514,10 @@ del {
 }
 .card-top img {
   width: 65px;
+}
+
+body > main > section.pricing-card-area.section-padding30.section-bg > div > div.cards-container > div:nth-child(1) > div > div.card-bottom > h4{
+  margin-bottom: 5px;
 }
 
 .img-icon{
