@@ -2047,7 +2047,7 @@ hr {
   transition: all 0.6s ease-out 0s;
   position: relative;
   top: -5px;
-  filter: drop-shadow(2px -1px 2px #e3a05f);
+  filter: drop-shadow(0px 0px 1px #af8b68);;
 }
 @media (max-width: 575px) {
   .section-tittle img {
@@ -2645,6 +2645,7 @@ hr {
   aspect-ratio: 749 / 1144;  /* keeps the original image proportion */
   margin: 5px;
   padding: 20px 30px;
+  box-shadow: -1px -1px 27px #e3a05f6e;
 }
 
 
@@ -2662,7 +2663,7 @@ hr {
   background-size: cover;
   background-position: center center;
   background-image: url(../img/gallery/section_bg2.png);
-  box-shadow: 2px -1px 30px #e3a05f;
+  box-shadow: 2px -1px 30px #bb9979;
 }
 .count-down-area .count-down-wrapper .single-counter {
   padding: 44px 10px 44px 9px;
@@ -2696,6 +2697,7 @@ hr {
 
 .gallery-area .single-gallery {
   overflow: hidden;
+  box-shadow: -1px -1px 27px #e3a05f6e;
 }
 .gallery-area .single-gallery:hover::before {
   opacity: 1;
@@ -2746,6 +2748,7 @@ hr {
 
 .slider-area {
   position: relative; /* important for absolute flowers */
+  box-shadow: 0px 6px 27px #af8b68;
 }
 
 .flower {
