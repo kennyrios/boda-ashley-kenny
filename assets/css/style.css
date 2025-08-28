@@ -2258,10 +2258,11 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-.button-hero-container a{
-
+    border: 11px solid transparent;
+    border-image-source: url(https://kennyrios.github.io/boda-ashley-kenny/assets/img/frame.webp);
+    border-image-slice: 33 44 fill;
+    border-image-repeat: stretch;
+    border-image-outset: 0;
 }
 
 .hero-header-container{
