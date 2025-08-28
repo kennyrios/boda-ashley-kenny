@@ -2697,7 +2697,7 @@ hr {
 
 .gallery-area .single-gallery {
   overflow: hidden;
-  box-shadow: -1px -1px 27px #e3a05f6e;
+  box-shadow: 2px 3px 9px #b494748c;
 }
 .gallery-area .single-gallery:hover::before {
   opacity: 1;
