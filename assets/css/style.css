@@ -2709,6 +2709,13 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+   border: 80px solid transparent;
+
+  /* use the wedding frame as a border */
+  border-image-source: url("https://kennyrios.github.io/boda-ashley-kenny/assets/img/gallery/frame.webp"); /* or data URI */
+  border-image-slice: 260 fill; /* adjust based on SVG proportions */
+  border-image-repeat: stretch; /* or round for tiling */
+  border-image-outset: 0;
 }
 .gallery-area .single-gallery .thumb-content-box {
   position: relative;
