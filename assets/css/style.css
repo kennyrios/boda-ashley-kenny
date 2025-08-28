@@ -2704,18 +2704,17 @@ hr {
   visibility: visible;
 }
 .gallery-area .single-gallery .gallery-img {
-  position: relative;
-  height: 565px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-   border: 80px solid transparent;
-
-  /* use the wedding frame as a border */
-  border-image-source: url("https://kennyrios.github.io/boda-ashley-kenny/assets/img/gallery/frame.webp"); /* or data URI */
-  border-image-slice: 260 fill; /* adjust based on SVG proportions */
-  border-image-repeat: stretch; /* or round for tiling */
-  border-image-outset: 0;
+    position: relative;
+    height: 565px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 17px solid transparent;
+    border-image-source: url(https://kennyrios.github.io/boda-ashley-kenny/assets/img/frame.webp);
+    border-image-slice: 33 fill;
+    border-image-repeat: stretch;
+    border-image-outset: 0;
+}
 }
 .gallery-area .single-gallery .thumb-content-box {
   position: relative;
